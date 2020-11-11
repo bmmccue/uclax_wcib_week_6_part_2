@@ -1,16 +1,19 @@
 .container {
   max-width: 960px; }
 
+h1 {
+  color: white; }
+
 /*
  * Custom translucent site header
  */
 .site-header {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #f4abc3;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px); }
 
 .site-header a {
-  color: #999;
+  color: white;
   transition: ease-in-out color .15s; }
 
 .site-header a:hover {
@@ -30,16 +33,6 @@
   border-radius: 21px;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg); }
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px; }
 
 .product-device-2 {
   top: -25%;
@@ -62,3 +55,16 @@
 
 .overflow-hidden {
   overflow: hidden; }
+
+.position-relative {
+  background-image: url(../images/beercans.jpg);
+  background-repeat: no-repeat; }
+
+.headline4 {
+  background-image: url(../images/beercan.jpg);
+  background-size: 100%;
+  height: 500px; }
+
+.btn {
+  background-color: black;
+  color: white; }
