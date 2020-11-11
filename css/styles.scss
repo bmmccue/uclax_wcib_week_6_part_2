@@ -4,6 +4,30 @@
 
 h1 {
   color: white;
+  text-shadow: 2px 2px #f4abc3;
+  font-family: Phosphate, arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: white;
+  text-shadow: 1px 1px #f4abc3;
+  font-family: Dunbar Low, arial, sans-serif;
+}
+
+h5 {
+  color: #e84b8b;
+  font-family: oskar, arial, sans-serif;
+}
+
+p {
+  color: white;
+  font-family: oskar, arial, sans-serif;
+}
+
+.copyright {
+text-shadow: 0px 0px;
+color: #e84b8b;
 }
 
 /*
@@ -23,33 +47,6 @@ h1 {
   color: #fff;
   text-decoration: none;
 }
-
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-
-
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
 
 /*
  * Extra utilities
@@ -73,15 +70,42 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.headline4 {
+.headline1 {
+  background-image: url(../images/hops.jpg);
+  background-size: 100%;
+  height: 500px;
+}
+
+.headline2 {
+  background-image: url(../images/purplefriends.jpg);
+  background-size: 100%;
+  height: 500px;
+}
+
+.headline3 {
   background-image: url(../images/beercan.jpg);
   background-size: 100%;
   height: 500px;
 }
 
+.text1, .text2 {
+  padding-top: 150px;
+}
+
+.text3, .text3para {
+  padding-left: 320px;
+}
+
+.headline4 {
+  background-image: url(../images/friends.jpg);
+  background-size: 100%;
+  height: 500px;
+}
+
 .btn {
-  background-color: black;
+  background-color: #f4abc3;
   color: white;
+  font-family: oskar, arial, sans-serif;
 }
 
 .btn-outline-secondary {
