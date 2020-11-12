@@ -125,16 +125,17 @@ button {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-image: url(../images/beer_and_cup.png);
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border: 1px solid pink;
+  height: 900px;
+  width: 1000px; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -145,6 +146,12 @@ button {
   color: gray;
   text-decoration: none;
   cursor: pointer;
+}
+
+.glug {
+  margin-left: 430px;
+  margin-top: 120px;
+  font-size: 60px;
 }
 /*
 modal ^^^
